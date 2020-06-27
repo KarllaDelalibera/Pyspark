@@ -23,9 +23,10 @@ def tratamento_strings(text):
     texto = tratamento_texto.remove_space_duplicado(texto)
     return texto
 
+#df -> dataframe
 df = df.withColumn("nova_coluna_texto", tratamento_strings("coluna_texto"))
 
 # O mesmo processo utilizando funções do spark
-# dados.rdd.map(lambda x: tratamento_strings(x["coluna_texto"]))\
-#          .map(lambda x: Row(x)).toDF(["novo_coluna_texto"])
+# df.rdd.map(lambda x: tratamento_strings(x["coluna_texto"]))\
+#       .map(lambda x: Row(x)).toDF(["novo_coluna_texto"])
 
