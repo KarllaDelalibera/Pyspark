@@ -26,6 +26,6 @@ def tratamento_strings(text):
 df = df.withColumn("nova_coluna_texto", tratamento_strings("coluna_texto"))
 
 # O mesmo processo utilizando funções do spark
-# dados.rdd.map(lambda x: tratamento_strings(x["descricao_cupom"]))\
-#          .map(lambda x: Row(x)).toDF(["descricao_tratada"])
+# dados.rdd.map(lambda x: tratamento_strings(x["coluna_texto"]))\
+#          .map(lambda x: Row(x)).toDF(["novo_coluna_texto"])
 
