@@ -8,6 +8,7 @@ sc.addPyFile(path_tratamento_texto)
 
 # importacao de modulos
 from pyspark.sql.functions import udf
+from pyspark.sql import Row
 
 from helpers import tratamento_descricoes
 
