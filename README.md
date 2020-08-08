@@ -29,7 +29,7 @@ $ pip install -r requirements-dev.txt
 Para rodar os testes e vizualizar o relatório de cobertura, execute:
 
 ```bash
-$ pytest -x --cov=parsers --cov-report=term-missing --cov-report=html:htmlcov
+$ pytest -x --cov=nlp --cov-report=term-missing --cov-report=html:htmlcov
 ```
 
 > Status do Projeto: Em desenvolvimento :construction:
