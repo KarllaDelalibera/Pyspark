@@ -15,7 +15,7 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 
 ## Instalação
 
-Ao executar os comandos abaixos, você irá configurar um ambiente virtual e instalar as dependências necessárias:
+Ao executar os comandos abaixo, você irá configurar um ambiente virtual e instalar as dependências necessárias:
 
 ```bash
 $ python -m venv .venv
