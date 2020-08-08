@@ -1,7 +1,7 @@
 import pytest
 
-from nlp.helpers import tratamento_descricoes
 
+from nlp.helpers import tratamento_descricoes
 
 
 class TestTratamentoTexto():

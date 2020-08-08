@@ -6,14 +6,14 @@
 O objetivo desse repositório é disponibilizar algumas soluções simples, mas que facilitam o desenvolvimento de um código utilizando Python e Spark.
 
 
-# Soluções já disponíveis 
+## Soluções já disponíveis 
 
 - [X] Como adicionar um arquivo .py ao sparkcontext para disponibiliza-lo aos seus executores. Isso foi feito através da criação de uma classe para tratamento de textos.
 - [X] Contém exemplos de UDF (função definida pelo usuário).
 - [ ] Como se conectar a um banco de dados.  
 
 
-# Instalação
+## Instalação
 
 Ao executar os comandos abaixos, você irá configurar um ambiente virtual e instalar as dependências necessárias:
 
@@ -23,7 +23,7 @@ $ source .venv/bin/activate
 $ pip install -r requirements-dev.txt
 ```
 
-# Testes e cobertura
+## Testes e cobertura
 
 Para rodar os testes e vizualizar o relatório de cobertura, execute:
 
