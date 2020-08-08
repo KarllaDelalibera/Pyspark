@@ -10,11 +10,13 @@ class TratamentoTexto():
         '''
         return re.sub(r'[^\w\s]',' ',text)
 
+
     def remove_acentuacao(self, text):
         '''
         Remove acentuacao de uma string
         '''
         return normalize('NFKD', text).encode('ASCII','ignore').decode('ASCII')
+
 
     def remove_space(self, text):
         '''
@@ -22,12 +24,12 @@ class TratamentoTexto():
         '''
         sentence = text.rstrip()
         sentence = sentence.lstrip()
-        return sentence 
+        return sentence
+
 
     def remove_space_duplicado(self, text):
         '''
         Remove espaços duplicados da string
         '''
         sentence = " ".join(re.split("\s+", text, flags=re.UNICODE))
-        return sentence    
-
+        return sentence
