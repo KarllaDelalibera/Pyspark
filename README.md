@@ -10,7 +10,6 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 
 - [X] Como adicionar um arquivo .py ao sparkcontext para disponibiliza-lo aos seus executores. Isso foi feito através da criação de uma classe para tratamento de textos.
 - [X] Contém exemplos de UDF (função definida pelo usuário).
-- [X] Presença de testes unitários.
 - [ ] Como se conectar a um banco de dados.  
 
 
