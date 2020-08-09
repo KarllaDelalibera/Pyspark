@@ -8,11 +8,8 @@ sc.addPyFile(path_tratamento_texto)
 
 # importacao de modulos
 from pyspark.sql.functions import udf
-from pyspark.sql import Row
-
 
 from nlp.helpers import tratamento_descricoes
-
 
 tratamento_texto = tratamento_descricoes.TratamentoTexto()
 
@@ -27,10 +24,10 @@ def tratamento_strings(text):
     texto = tratamento_texto.remove_space_duplicado(texto)
     return texto
 
-#df -> dataframe
+
+# df -> dataframe
 df = df.withColumn("nova_coluna_texto", tratamento_strings("coluna_texto"))
 
 # O mesmo processo utilizando map
 # df.rdd.map(lambda x: tratamento_strings(x["coluna_texto"]))\
 #       .map(lambda x: Row(x)).toDF(["novo_coluna_texto"])
-
