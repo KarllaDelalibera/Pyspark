@@ -21,10 +21,10 @@
             "spark.shuffle.compress": "true",
             "spark.shuffle.spill.compress": "true",
             "spark.sql.shuffle.partitions": "400",
-			"spark.driver.maxResultSize": "10000M",
+	    "spark.driver.maxResultSize": "10000M",
             "spark.storage.level": "MEMORY_AND_DISK",
-			"spark.driver.extraClassPath": "/etc/hadoop/conf:/etc/hive/conf:/usr/lib/hadoop-lzo/lib/*:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/emr/emrfs/conf:/usr/share/aws/emr/emrfs/lib/*:/usr/share/aws/emr/emrfs/auxlib/*:/usr/share/aws/redshift/jdbc/RedshiftJDBC42.jar",
-			"spark.executor.extraClassPath": "/etc/hadoop/conf:/etc/hive/conf:/usr/lib/hadoop-lzo/lib/*:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/emr/emrfs/conf:/usr/share/aws/emr/emrfs/lib/*:/usr/share/aws/emr/emrfs/auxlib/*:/usr/share/aws/redshift/jdbc/RedshiftJDBC42.jar"
+	    "spark.driver.extraClassPath": "/etc/hadoop/conf:/etc/hive/conf:/usr/lib/hadoop-lzo/lib/*:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/emr/emrfs/conf:/usr/share/aws/emr/emrfs/lib/*:/usr/share/aws/emr/emrfs/auxlib/*:/usr/share/aws/redshift/jdbc/RedshiftJDBC42.jar",
+	    "spark.executor.extraClassPath": "/etc/hadoop/conf:/etc/hive/conf:/usr/lib/hadoop-lzo/lib/*:/usr/share/aws/aws-java-sdk/*:/usr/share/aws/emr/emrfs/conf:/usr/share/aws/emr/emrfs/lib/*:/usr/share/aws/emr/emrfs/auxlib/*:/usr/share/aws/redshift/jdbc/RedshiftJDBC42.jar"
          }
         },        
         {
